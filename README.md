@@ -1,6 +1,6 @@
 # Argocd Kubernetes Gitops Tutorial
 
-This repo contains all the code needed to follow along with our **[YouTube Tutorial](https://youtu.be/yj4O0wwkMQI)** or **[Written Article](https://rayanslim.com/course/argocd-gitops-course/introduction)**.
+This repo contains all the code needed to follow along with our **[YouTube Tutorial](https://youtu.be/yj4O0wwkMQI)** or **[Written Article](https://rslim087a.github.io/rayanslim/lesson.html?course=argocd-gitops-course&lesson=introduction)**.
 
 ## Prerequisites
 
