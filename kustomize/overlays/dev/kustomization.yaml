@@ -12,3 +12,8 @@ patches:
     target:
       kind: Deployment
       name: grade-submission-api
+  
+  - path: backendconfig-annotation-patch.yaml
+    target:
+      kind: Service
+      name: grade-submission-api
