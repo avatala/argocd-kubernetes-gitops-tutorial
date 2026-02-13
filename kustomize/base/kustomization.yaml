@@ -4,3 +4,5 @@ kind: Kustomization
 resources:
   - grade-submission-api-deployment.yaml
   - grade-submission-api-service.yaml
+  - grade-submission-api-backendconfig.yaml
+  - grade-submission-api-ingress.yaml

@@ -3,10 +3,13 @@ kind: Service
 metadata:
   name: grade-submission-api
   namespace: grade-demo
+  annotations:
+    cloud.google.com/backend-config: '{"default": "grade-backend-config"}'
 spec:
-  type: NodePort
+  type: ClusterIP
   selector:
     app: grade-submission
   ports:
-  - port: 3000
+  - name: http
+    port: 3000
     targetPort: 3000
